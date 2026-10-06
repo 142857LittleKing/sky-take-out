@@ -11,7 +11,7 @@ import com.sky.entity.DishFlavor;
 import com.sky.exception.DeletionNotAllowedException;
 import com.sky.mapper.DishFlavorMapper;
 import com.sky.mapper.DishMapper;
-import com.sky.mapper.SetMealDishMapper;
+import com.sky.mapper.SetmealDishMapper;
 import com.sky.result.PageResult;
 import com.sky.service.DishService;
 import com.sky.vo.DishVO;
@@ -32,7 +32,7 @@ public class DishServiceImpl implements DishService {
     @Autowired
     private DishFlavorMapper dishFlavorMapper;
     @Autowired
-    private SetMealDishMapper setMealDishMapper;
+    private SetmealDishMapper setMealDishMapper;
 
     /**
      * 新增菜品和对应的口味
